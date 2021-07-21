@@ -543,3 +543,8 @@
     {{user}} <button (click)="deleteUser(user)">Borrar usuario</button>
   </li>
 </ul>
+
+<form (submit)="addUser(newUser)">
+  <input type="text" #newUser>
+  <button>Agregar usuario</button>
+</form>
