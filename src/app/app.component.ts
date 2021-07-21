@@ -37,4 +37,8 @@ export class AppComponent {
     hobby.value="";
     return false;
   }
+
+  sayHello(){
+    alert("hola desde app.component")
+  }
 }
