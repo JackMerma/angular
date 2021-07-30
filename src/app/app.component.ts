@@ -9,7 +9,9 @@ export class AppComponent {
   users=['jack', 'daniela', 'roro'];
   activate=false;
   title = 'my-dream-app';
-  name:string;
+  name;
+  nameDB:string="Jackson Merma";
+  age: number = 18;
   email;
   webpage:string;
   hobbies:string[];

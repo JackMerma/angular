@@ -548,3 +548,13 @@
   <input type="text" #newUser>
   <button>Agregar usuario</button>
 </form>
+
+<h1>Data Binding</h1>
+<div>
+  <form>
+    <input type="text" name="nameDB" [(ngModel)]="nameDB">
+    <input type="text" name="age" [(ngModel)]="age">
+  </form>
+  <h2>Name: {{ nameDB }}</h2>
+  <h2>Age: {{ age }}</h2>
+</div>
